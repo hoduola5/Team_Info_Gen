@@ -7,11 +7,13 @@ class Employee {
   name;
   id;
   email;
+  title;
 
   constructor(name, id, email) {
     this.name = name;
     this.id = id;
     this.email = email;
+    this.title = "Employee";
   }
 
   getName = () => {
@@ -23,12 +25,12 @@ class Employee {
   };
 
   getEmail = () => {
-    this.email = email;
+    return this.email;
   };
 
   getRole = () => {
-    return Employee;
+    return this.title;
   };
 }
 
-const newEmploy = new Employee();
+module.exports = Employee;
