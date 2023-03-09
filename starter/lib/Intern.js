@@ -2,7 +2,7 @@
 const Employee = require("./Employee");
 
 class Intern {
-  // school;
+  school;
 
   constructor(name, id, email, school) {
     this.name = name;
@@ -14,7 +14,6 @@ class Intern {
     return this.school;
   }
   getRole() {
-    // const newIntern = Intern;
     return Intern.name;
   }
 }

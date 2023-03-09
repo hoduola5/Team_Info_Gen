@@ -9,15 +9,15 @@ class Manager {
     this.id = id;
     this.email = email;
     this.officeNumber = officeNumber;
+    this.title = "Manager";
   }
 
-  getOffice(officeNumber) {
-    return officeNumber;
+  getOfficeNumber() {
+    return this.officeNumber;
   }
 
-  getRole(name) {
-    // const newManager = Manager;
-    return Manager.name;
+  getRole() {
+    return this.title;
   }
 }
 

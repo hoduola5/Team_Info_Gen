@@ -3,6 +3,7 @@ const Employee = require("./Employee");
 
 class Engineer {
   github;
+
   constructor(name, id, email, github) {
     this.name = name;
     this.id = id;
@@ -14,7 +15,6 @@ class Engineer {
     return this.github;
   }
   getRole() {
-    // const newEngineer = Engineer;
     return Engineer.name;
   }
 }
