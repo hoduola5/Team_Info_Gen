@@ -75,6 +75,7 @@
     "imurmurhash": "^0.1.4",
     "inflight": "^1.0.6",
     "inherits": "^2.0.4",
+    "inquirer": "^8.0.0",
     "is-arrayish": "^0.2.1",
     "is-core-module": "^2.11.0",
     "is-fullwidth-code-point": "^3.0.0",
@@ -197,7 +198,8 @@
     "jest": "^29.4.3"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "index.js"
   },
   "author": "Hammed",
   "license": "ISC"
