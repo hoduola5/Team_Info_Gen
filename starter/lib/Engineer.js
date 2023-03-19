@@ -9,13 +9,14 @@ class Engineer {
     this.id = id;
     this.email = email;
     this.github = github;
+    this.title = "Engineer";
   }
 
-  getGithub(github) {
+  getGithub() {
     return this.github;
   }
   getRole() {
-    return Engineer.name;
+    return this.title;
   }
 }
 
