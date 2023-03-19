@@ -32,6 +32,9 @@ Team_Info_Gen is a CLI Application that can be used to generate team profile. Th
 - Run "node index.js" or "node index" on your "terminal" or "git bash" to run the application.
 - Provide answers to the questions prompted on the terminal and once your done you can use the arrow keys on your keyboard to point "Finish building the team" and press "Enter" key to to generate an HTML page in an "output" folder.
 
+Here is the screenshot of the rendered page
+![alt text](assets/Team-Info-Gen-Screenshot-OOP.png)
+
 ## Contributing
 
 You can contribute buy reaching out to me on Github at "https://github.com/hoduola5/Team_Info_Gen".
