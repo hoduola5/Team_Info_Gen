@@ -3,18 +3,20 @@ const Employee = require("./Employee");
 
 class Intern {
   school;
+  title;
 
   constructor(name, id, email, school) {
     this.name = name;
     this.id = id;
     this.email = email;
     this.school = school;
+    this.title = "Intern";
   }
-  getSchool(school) {
+  getSchool() {
     return this.school;
   }
   getRole() {
-    return Intern.name;
+    return this.title;
   }
 }
 

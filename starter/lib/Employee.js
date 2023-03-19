@@ -20,11 +20,11 @@ class Employee {
     return this.id;
   };
 
-  getEmail = () => {
+  getEmail = (email) => {
     return this.email;
   };
 
-  getRole = () => {
+  getRole = (title) => {
     return this.title;
   };
 }
